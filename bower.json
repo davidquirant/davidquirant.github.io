@@ -1,0 +1,14 @@
+{
+  "name": "landingblog",
+  "version": "1.0",
+  "authors": [
+    "David Quirant"
+  ],
+  "description": "Landing page for my personal blog davidquirant.com",
+  "license": "MIT",
+  "homepage": "index.html",
+  "private": true,
+  "dependencies": {
+    "normalize.css": "3.0.2"
+  }
+}

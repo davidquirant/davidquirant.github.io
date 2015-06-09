@@ -1,0 +1,116 @@
+// _uigradients.scss
+
+// *******************
+// MIXINS
+// *******************
+@mixin linear-gradient($color-top, $color-bottom) {
+	background: -webkit-linear-gradient($color-top 10%, $color-bottom 90%); /* Chrome 10+, Saf5.1+ */
+	background:    -moz-linear-gradient($color-top 10%, $color-bottom 90%); /* FF3.6+ */
+	background:     -ms-linear-gradient($color-top 10%, $color-bottom 90%); /* IE10 */
+	background:      -o-linear-gradient($color-top 10%, $color-bottom 90%); /* Opera 11.10+ */
+	background:         linear-gradient($color-top 10%, $color-bottom 90%); /* W3C */
+}
+
+
+// *******************
+// GRADIENTS
+// *******************
+.curiosity-blue {
+	@include linear-gradient(#525252, #3d72b4);
+}
+
+.ukraine {
+	@include linear-gradient(#004FF9, #FFF94C);
+}
+
+.green-to-dark {
+	@include linear-gradient(#6A9113, #141517);
+}
+
+.fresh-turboscent {
+	@include linear-gradient(#F1F2B5, #135058);
+}
+
+.koko-caramel {
+	@include linear-gradient(#FFD194, #D1913C);
+}
+
+.virgin-america {
+	@include linear-gradient(#7b4397, #dc2430);
+}
+
+.portrait {
+	@include linear-gradient(#eef2f3, #8e9eab);
+}
+
+.turquoise-flow {
+	@include linear-gradient(#136a8a, #267871);
+}
+
+.vine {
+	@include linear-gradient(#00bf8f, #001510);
+}
+
+.flickr {
+	@include linear-gradient(#ff0084, #33001b);
+}
+
+.instagram {
+	@include linear-gradient(#517fa4, #33001b);
+}
+
+.sunrise {
+	@include linear-gradient(#F09819, #FF512F);
+}
+
+.aqua-marine {
+	@include linear-gradient(#26D0CE, #1A2980);
+}
+
+.aubergine {
+	@include linear-gradient(#AA076B, #61045F);
+}
+
+.bloody-mary {
+	@include linear-gradient(#FF512F, #DD2476);
+}
+
+.pastel-orange-at-the-sun {
+	@include linear-gradient(#ffcc33, #ffb347);
+}
+
+.endless-river {
+	@include linear-gradient(#43cea2, #185a9d);
+}
+
+.predawn {
+	@include linear-gradient(#FFA17F, #00223E);
+}
+
+.purple-bliss {
+	@include linear-gradient(#360033, #0b8793);
+}
+
+.talking-to-mice-elf {
+	@include linear-gradient(#948E99, #2E1437);
+}
+
+.hersheys {
+	@include linear-gradient(#9a8478, #1e130c);
+}
+
+.crazy-orange-i {
+	@include linear-gradient(#D38312, #A83279);
+}
+
+.between-the-clouds {
+	@include linear-gradient(#73C8A9, #373B44);
+}
+
+.calm-darya {
+	@include linear-gradient(#5f2c82, #49a09d);
+}
+
+.lemon-twist {
+	@include linear-gradient(#3CA55C, #B5AC49);
+}

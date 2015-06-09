@@ -1,0 +1,85 @@
+// *******************
+// IMPORTS
+// *******************
+
+// Normalize.css
+@import url(../../bower_components/normalize.css/normalize.css);
+
+// Font Awesome
+@import url(../../bower_components/fontawesome/css/font-awesome.css);
+
+// Google Font Muli
+@import url(http://fonts.googleapis.com/css?family=Muli);
+
+// UI Gradients
+@import '_uigradients';
+
+
+
+// *******************
+// VARIABLES
+// *******************
+
+// MEDIA QUERIES
+$break-small: 480px;
+$break-large: 720px;
+
+
+
+// *******************
+// STYLES
+// *******************
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Muli', sans-serif;
+	color: white;
+}
+
+.container {
+	@media screen and (max-width: $break-small) {
+		left: 5%;
+		width: 90%;
+		height: 65%;
+		top: 15%;
+	}
+
+	@media screen and (min-width: $break-large) {
+		left: 25%;
+		width: 50%;
+		height: 50%;
+		top: 25%;
+	}
+
+	position: absolute;
+	text-align: center;
+}
+
+.logo {
+	margin-bottom: 40px;
+}
+
+.list {
+	margin-bottom: 40px;
+}
+
+.follow-me {
+	text-transform: uppercase;
+	font-size: .7em;
+}
+
+.icons {
+	font-size: 2em;
+	margin: 0;
+
+	.fa {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	a {
+		color: white;
+	}
+}
